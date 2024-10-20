@@ -66,12 +66,12 @@
   /*Gradient Colors*/
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(240, 1%, 25%) 3%,
+    hsla(240, 1%, 25%, 0.86) 3%,
     hsl(0, 0%, 19%) 97%
   );
   --bg-gradient-jet: linear-gradient(
       to bottom right,
-      hsla(240, 1%, 18%, 0.251) 0%,
+      hsla(240, 18%, 29%, 0.251) 0%,
       hsla(240, 2%, 11%, 0) 100%
     ),
     hsl(240, 2%, 13%);
@@ -1539,6 +1539,8 @@ textarea.form-input::-webkit-resizer {
 
   .about-text {
     margin-bottom: 40px;
+    font-size: 22px;
+    text-align:justify ;
   }
 
   /* service */
